@@ -17,7 +17,7 @@ class Beranda extends MY_Controller {
 
 
 	function index() {
-		echo "masuk";
+		$this->load->view('v_beranda');
 	}
 
 }
